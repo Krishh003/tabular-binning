@@ -1,0 +1,31 @@
+{
+  "dataset": "California Housing",
+  "epochs": 8,
+  "bins": 10,
+  "results": {
+    "ValueRecon/none": {
+      "test_rmse": 0.6346883013997279,
+      "ridge_alpha": 0.01
+    },
+    "ValueRecon/constant": {
+      "test_rmse": 0.6312049103019207,
+      "ridge_alpha": 0.01
+    },
+    "BinXent/none": {
+      "test_rmse": 0.6249419863890587,
+      "ridge_alpha": 0.01
+    },
+    "BinRecon/none": {
+      "test_rmse": 0.6007057595994818,
+      "ridge_alpha": 0.01
+    },
+    "BinRecon/constant": {
+      "test_rmse": 0.6090647086680897,
+      "ridge_alpha": 0.01
+    },
+    "BinRecon/random": {
+      "test_rmse": 0.61136925612147,
+      "ridge_alpha": 0.01
+    }
+  }
+}

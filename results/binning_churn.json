@@ -1,0 +1,5 @@
+{
+  "dataset": "Bank Churn",
+  "encoder_pretraining_epochs_local": 0,
+  "test_roc_auc": 0.7905691056910569
+}
